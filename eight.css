@@ -1,0 +1,63 @@
+#application {
+  border: solid 2px plum;
+  width:600px;
+  height:300px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius:10px;
+}
+.ui-block-i button {
+  width:80px;
+  height:80px;
+  border:0px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius:8px;
+  background-color: skyblue;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+button::-moz-focus-inner {
+  border:none;
+}
+#gameTitle{
+  font-family: cursive;
+}
+.ui-block-i {
+  display: inline-block;
+}
+li {
+  list-style: none;
+  font-family: Monospace;
+}
+
+.gridview li {
+  margin: 10px;
+}
+.statusButton {
+  width:100px;
+  height:40px;
+  position: relative;
+  top: 40px;
+  background-color: orange;
+  -moz-border-radius: 8px;
+  -webkit-border-radius:8px;
+}
+
+div #leftApplication {
+  float: left;
+}
+#button8{
+  color:white;
+  visibility:visible;
+  background-color:white;
+  border:0px;
+}
+div #statusArea {
+  float: left;
+  margin-left: 60px;
+  margin-top: 15px;
+  width: 180px;
+  height:260px;
+  border: solid 1px plum;
+  -moz-border-radius: 3px;
+  -webkit-border-radius:3px;
+}

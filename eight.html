@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Eight </title>
+    <link rel="stylesheet" href="eight.css">
+    <script type="text/javascript" charset="utf-8" src="./jquery/jquery-1.6.4.js"></script>
+    <script type="text/javascript" src="eight.js"></script>
+  </head>
+  <body>
+    <div align="center">
+      <div data-role="header">
+        <h1 id="gameTitle"> Eight </h1>
+      </div>
+      <div id="application" align="center">
+        <div id="leftApplication">
+        <div id="buttonTable" class="ui-grid-c" align="left">
+          <ul class="gridview">
+            <li>
+              <div class="ui-block-i"><button id="button0" >1</button></div>
+              <div class="ui-block-i"><button id="button1">2</button></div>
+              <div class="ui-block-i"><button id="button2">3</button></div>
+            </li>
+
+            <li>
+              <div class="ui-block-i"><button id="button3">4</button></div>
+              <div class="ui-block-i"><button id="button4">5</button></div>
+              <div class="ui-block-i"><button id="button5">6</button></div>
+            </li>
+
+            <li>
+               <div class="ui-block-i"><button id="button6">7</button></div>
+               <div class="ui-block-i"><button id="button7">8</button></div>
+               <div class="ui-block-i"><button id="button8">x</button></div>
+            </li>
+        </div>
+
+      </div>
+      <div id="statusArea" align="left">
+          <ul>
+            <li> &uarr;: Up </li>
+            <li> &darr;: Down </li>
+            <li> &larr;: Left </li>
+            <li> &rarr;: Right </li>
+          </ul>
+        <ul>
+          <li>Time: <span id="totalTime">0h0&prime;0&Prime;</span></li>
+          <li>Step: <span id="totalStep">0</span></li>
+        </ul>
+        <ul>
+          <li><button class="statusButton" id="begin">Begin</button></li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
